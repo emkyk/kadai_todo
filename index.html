@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THINGS TO DO </title>
+    <!-- CSSファイルのリンク -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>THINGS TO DO</h1>
+    <!-- 入力セクション -->
+    <div id="inputSection">
+        <!-- TO DO 入力フィールド -->
+        <input type="text" id="todoInput" placeholder="   what to do ">
+        <!-- カラーピッカー -->
+        <input type="color" id="colorPicker" value="#ffeb3b">
+        <!-- 追加ボタン -->
+        <button onclick="addTodo()">add</button>
+    </div>
+    <!-- TO DO カードを表示するコンテナ -->
+    <div id="todoContainer"></div>
+    <!-- JavaScriptファイルのリンク -->
+    <script src="script.js"></script>
+</body>
+</html>
